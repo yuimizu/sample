@@ -70,6 +70,22 @@ a:link, a:visited {
     color: #0040B6;
 }
 
+a:hover{
+    font-weight :bold;
+}
+
+.gnavi-text{
+    text-align: center;
+    height: 59px;
+    padding-top: 10px;
+    color: #fffff9;
+}
+
+.gnavi-text p{
+    font-size: 14px;
+    color: #fffff9;
+}
+
 #content {
     float: left;
     width: 680px;
@@ -104,6 +120,25 @@ h2 {
     border-bottom: 1px dashed #808080;
 }
 
+.j-hgrid {
+    padding: 0 !important;
+}
+
+.cc-m-hgrid-column {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: left;
+    min-height: 1px;
+    min-width: 0;
+    padding: 0 2% 0 0;
+}
+
+.cc-m-hgrid-column.last {
+    float: right;
+    padding: 0;
+}
+
 #side {
     float: right;
     width: 235px;
@@ -133,6 +168,12 @@ h2 {
     height: 35px;
     background: url(https://u.jimcdn.com/cms/o/s400d18bf59c38dd8/userlayout/img/navbg1.png?t=1427952367) no-repeat;
 }
+
+.level_1 span:hover{
+    opacity: 0.5;
+
+}
+
 
 #footer {
     clear: both;
