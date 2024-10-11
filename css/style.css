@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://u.jimcdn.com/cms/o/s400d18bf59c38dd8/userlayout/img/bg1.gif?t=1428106564)no-repeat;
+    background-position: top center;     
+}
+
+body, p {
+    font: normal 12px / 140% "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Mayryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #000000;
+}
+
+#container{
+    width: 960px;
+    min-height: 2240px;
+    margin: 10px auto 30px;
+    position: relative;
+}
+
+#header {
+    float: left;
+    width: 950px;
+    margin: 0 0 400px;   
+}
+
+h1 {
+    font: normal normal bold 25px/140% "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","メイリオ","Mayryo","ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    color: #999999;
+    text-align: center;
+}
+
+#header h1 a {
+    float: left;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 2.5;
+}
+
+#header p {
+    float: left;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #fff;
+}
+
+#gnavi {
+    background-color: #fff;
+    float: left;
+    height: 70px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#gnavi li {
+    float: left;
+    width: 186px;
+    list-style-type: none;
+    margin-right: 2px;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: #0040B6;
+}
+
+#content {
+    float: left;
+    width: 680px;
+    margin: 0 0 0px;
+}
+
+body div.n {
+    padding: 5px 0;
+}
+
+#content h1 {
+    margin: 25px 0 10px;
+    padding: 0px;
+    background: #4d4d4d;
+}
+
+div.hr {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #CCCCCC;
+    height: 1px;
+}
+
+h2 {
+    font: normal normal bold 20px / 140% "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Mayryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    color: #000000;
+}
+
+#content h2 {
+    margin: 20px 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #808080;
+}
+
+#side {
+    float: right;
+    width: 235px;
+    margin: 5px 0;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cc-nav-view-2085460973 {
+    display: none;
+}
+
+#nav ul#mainNav1 li a {
+    display: block;
+    margin: 50 0 0 50;
+    padding: 15px 0px 0px 20px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #996633;
+    text-decoration: none;
+    border-bottom: none;
+    width: 280px;
+    height: 35px;
+    background: url(https://u.jimcdn.com/cms/o/s400d18bf59c38dd8/userlayout/img/navbg1.png?t=1427952367) no-repeat;
+}
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    width: 960px;
+}
+
+div#contentfooter {
+    width: 100%;
+    font-size: 11px;
+    line-height: 140%;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+div#contentfooter div.leftrow {
+    float: left;
+    text-align: left;
+    width: 55%;
+}
+
+div#contentfooter div.rightrow {
+    float: right;
+    text-align: right;
+    width: 42%;
+}
