@@ -1,0 +1,73 @@
+#content .j-blogarticle {
+    margin-bottom: 10px;
+}
+
+body div.blogselection div.n {
+    padding: 0px;
+}
+
+.clearover, div.captcha {
+    overflow: hidden;
+}
+
+
+#content .dt-alignment-right {
+    float: left;
+    margin: 5px 15px 0 0;
+}
+
+p.dt-hide {
+    display: none !important;
+}
+
+div.datetime.dt-style0 {
+    min-width: 44px;
+    min-height: 45px;
+    background-color: #269cdd;
+    overflow: hidden;
+    border-radius: 1px;
+    box-shadow: #323232 0 0 5px;
+}
+
+
+div.datetime.dt-style0 p.mon {
+    padding-top: 3px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+}
+
+div.datetime.dt-style0 p.day {
+    padding-top: 3px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+div.datetime.dt-style0 p.day:after {
+    background-color: rgba(255, 255, 255, .2);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 150%;
+    border-radius: 140px / 40px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+div.datetime.dt-style0 .datetime-inner:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.j-blog .blogreadmore, .j-blog .comment, .j-blogSelection .n .blogreadmore, .j-blogSelection .n .comment {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-width: 0;
+    width: auto;
+}
