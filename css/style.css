@@ -92,10 +92,35 @@ body div.n {
     padding: 5px 0;
 }
 
+.j-subtitle{
+	padding:2em;
+	background: none;
+	border:1px solid #ccc ;
+	position: relative;
+}
+.j-subtitle:after{
+	background-color:#eee;
+	border:none;
+	content: '';
+	position: absolute;
+	top: 4px;
+	left: 7px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.subtitle{
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 #content h1 {
     margin: 25px 0 10px;
     padding: 0px;
     background: #4d4d4d;
+
 }
 
 div.hr {
@@ -161,6 +186,19 @@ h2 {
 /* join.htmlのj-hgrid */
 #cc-m-10346524273{
     min-height: 822px;
+}
+
+.j-hgrid-faq1{
+    min-height: 213px;
+}
+
+.j-hgrid-faq2{
+    min-height: 140px;
+}
+
+/* faq2.htmlのj-hgrid-faqの最後*/
+#cc-m-10346445173{
+    min-height: 210px;
 }
 
 .cc-m-hgrid-column {
